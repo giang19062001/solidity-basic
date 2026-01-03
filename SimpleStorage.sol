@@ -9,7 +9,7 @@ contract SimpleStorage{
 
     // khi khai báo 1 state với 'Public' thì state đó sẽ tự tạo getter thay vì mình phải tự viết
     uint16[] public hobbieNumbers; 
-    // uint16[5] public hobbieNumbers;   // ! Khai báo mảng với length cố định
+    // uint16[5] public hobbieNumbers;   // !Khai báo mảng với length cố định
 
     // lưu dữ liệu nhị phân, dự liệu được hash
     bytes32 hashPassword = "a665a45920422f9d417e4867efdc4fb8"; // 32 -> 32 kí tự
