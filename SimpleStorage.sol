@@ -62,4 +62,13 @@ contract SimpleStorage{
     function setMyBalance(address m_Address, uint256 m_amount) public {
         MyBlance[m_Address] = m_amount;
     }
+
+    // ! memory thì tham số trong hàm có thể thay đổi
+    // function whatMemory(string memory p_name ) public {
+    //     p_name = "hello";
+    // }
+    // ! calldata thì tham số trong hàm KHÔNG  thể thay đổi
+    //  function whatMemory(string calldata p_name ) public {
+    //     p_name = "hello";
+    // }
 }
