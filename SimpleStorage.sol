@@ -27,6 +27,13 @@ contract SimpleStorage{
 
     // state (key-value) -> 'mapping'  dữ liệu object
     mapping(address myAddress  => uint256 amount) public MyBlance; // -> key-value ( địa chỉ vs số )
+    
+    //VD:  "MyBlance": {
+    //        "0x742d35Cc6634C0532925a3b844Bc454e4438f44e": "100",
+    //        "0x1234567890123456789012345678901234567890": "50",
+    //        "0x9999999999999999999999999999999999999999": "200"
+    //      } 
+    // lấy giá trị mapping nào đó: MyBlance[0x742d35Cc6634C0532925a3b844Bc454e4438f44e] => "100"
     // mapping(address myAddress  => Person) public MyBlance;  // -> key-value ( địa chỉ vs struct)
 
 
